@@ -1,9 +1,38 @@
-* {
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+footer .foot-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 20%;
+  text-align: center;
+  color: lightblue;
+  background-color: #3777BB;
 }
-
-body {
-  margin: 0;
+footer .foot-top p:nth-child(1) {
+  letter-spacing: 0.4rem;
+}
+footer .foot-top p:nth-child(2) {
+  line-height: 2rem;
+  font-size: 0.8em;
+}
+footer .foot-top .foot-icons {
+  display: flex;
+  font-size: 1.7em;
+}
+footer .foot-top .foot-icons i {
+  padding: 0 0.6rem;
+}
+footer .foot-bot {
+  background-color: #363B47;
+  color: rgba(173, 216, 230, 0.472);
+  padding: 0.2rem;
+}
+footer .foot-bot p {
+  text-align: center;
+  font-size: 0.7em;
 }
 
 header {
@@ -33,6 +62,15 @@ header ul li {
 }
 header ul li:nth-child(1) {
   background-color: #3777BB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 section {
@@ -128,38 +166,6 @@ section {
   width: 100%;
 }
 
-footer .foot-top {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem 20%;
-  text-align: center;
-  color: lightblue;
-  background-color: #3777BB;
-}
-footer .foot-top p:nth-child(1) {
-  letter-spacing: 0.4rem;
-}
-footer .foot-top p:nth-child(2) {
-  line-height: 2rem;
-  font-size: 0.8em;
-}
-footer .foot-top .foot-icons {
-  display: flex;
-  font-size: 1.7em;
-}
-footer .foot-top .foot-icons i {
-  padding: 0 0.6rem;
-}
-footer .foot-bot {
-  background-color: #363B47;
-  color: rgba(173, 216, 230, 0.472);
-  padding: 0.2rem;
-}
-footer .foot-bot p {
-  text-align: center;
-}
-
 @media screen and (min-width: 2560px) {
   body {
     width: 60%;
@@ -167,13 +173,6 @@ footer .foot-bot p {
     box-shadow: 0 0 5rem;
     font-size: 1.4em;
   }
-
-  /* HEADER      HEADER      HEADER      HEADER       */
-  /* SECTION1     SECTION1     SECTION1     SECTION1      */
-  /* SECTION2     SECTION2     SECTION2     SECTION2      */
-  /* SECTION3     SECTION3     SECTION3     SECTION3      */
-  /* SECTION4     SECTION4     SECTION4     SECTION4      */
-  /* FOOTER      FOOTER      FOOTER      FOOTER       */
 }
 @media screen and (min-width: 1440px) {
   body {
@@ -183,16 +182,10 @@ footer .foot-bot p {
     font-size: 1.2em;
   }
 
-  /* HEADER      HEADER      HEADER      HEADER       */
   /* SECTION1     SECTION1     SECTION1     SECTION1      */
   .s1 {
     height: 40vh;
   }
-
-  /* SECTION2     SECTION2     SECTION2     SECTION2      */
-  /* SECTION3     SECTION3     SECTION3     SECTION3      */
-  /* SECTION4     SECTION4     SECTION4     SECTION4      */
-  /* FOOTER      FOOTER      FOOTER      FOOTER       */
 }
 @media screen and (max-width: 769px) {
   /* HEADER      HEADER      HEADER      HEADER       */
@@ -207,7 +200,6 @@ footer .foot-bot p {
     background-size: 165%;
   }
 
-  /* SECTION2     SECTION2     SECTION2     SECTION2      */
   /* SECTION3     SECTION3     SECTION3     SECTION3      */
   .s3 {
     grid-template-columns: 1fr;
@@ -229,8 +221,6 @@ footer .foot-bot p {
     width: 100% !important;
     grid-template-columns: 1fr !important;
   }
-
-  /* FOOTER      FOOTER      FOOTER      FOOTER       */
 }
 @media screen and (max-width: 426px) {
   section {
@@ -254,10 +244,6 @@ footer .foot-bot p {
   .s2 {
     padding: 1rem;
   }
-
-  /* SECTION3     SECTION3     SECTION3     SECTION3      */
-  /* SECTION4     SECTION4     SECTION4     SECTION4      */
-  /* FOOTER      FOOTER      FOOTER      FOOTER       */
 }
 
 /*# sourceMappingURL=app.css.map */
